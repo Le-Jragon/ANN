@@ -1,0 +1,26 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package annproj;
+
+import java.util.ArrayList;
+
+/**
+ *
+ * @author conlejd
+ */
+public class InputNode extends Node{
+    private double inputVal;
+    InputNode(){
+        super();
+    }
+    @Override
+    public void setInput(double i){
+        inputVal = i;
+    }
+    @Override
+    public double calculateOutput(){
+        return inputVal;
+    }
+}
